@@ -30,6 +30,7 @@ UzTicTacToe is a two-player game where players alternate placing "X" and "O" on 
 ![Game Board](screenshots/Tscreen4_1.jpg)  
 ![Game Board](screenshots/Tscreen4_3.jpg)  
 ![Winner Screen](screenshots/Tscreen4_2.jpg)  
+![App Icon](screenshots/UZ_X0.png)
 
 ## How to Run
 1. Clone the repo:

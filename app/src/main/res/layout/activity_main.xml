@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#121212"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+    <!-- Game Status -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player X's Turn"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- 3x3 Grid -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/btn1"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/btn2"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/btn3"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/btn4"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/btn5"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/btn6"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/btn7"
+            style="@style/TicTacToeButton"/>
+        <Button
+            android:id="@+id/btn8"
+            style="@style/TicTacToeButton"/>
+    </GridLayout>
+
+    <!-- Reset Button -->
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#18561A"
+        android:textColor="@color/white"
+        android:text="Reset Game"/>
+</LinearLayout>
